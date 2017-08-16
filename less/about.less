@@ -1,0 +1,332 @@
+/*复位样式*/
+body,
+a,
+textarea,
+input {
+    font-family: SourceHanSans,Microsoft YaHei,"宋体", Verdana, Geneva, sans-serif;
+}
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+hr,
+blockquote {
+    padding: 0;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+img {
+    vertical-align: middle;
+    font-size: 0;
+}
+html,
+body {
+    //font-size: 10px;   /*根*/
+    font-size: 20px;
+    color: #3a3a3a;
+    max-width: 720px;
+    margin: 0 auto;
+}
+//公共样式
+h1 {
+    text-align: center;
+    font-size: 1.6rem;
+    color: #585757;
+    font-weight: normal;
+}
+.en-caption {
+    color: #585757;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+p {
+    font-size: 1rem;
+}
+h2 {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #74c5be;
+    line-height: 2.5rem;
+}
+h3 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+.main {
+    padding: 2.5rem 0;
+}
+//工具箱
+.clear-float:after,
+.clear-float:before {
+    clear: both;
+    content: "";
+}
+.section-color {
+    color: #8a8b8c;
+}
+.left-float {
+    float: left;
+}
+.right-float {
+    float: right;
+}
+//page01
+.page01 {
+    .txt-story {
+        background-color: #f9f9f9;
+        text-align: center;
+        padding: 1.25rem;
+        p {
+            margin-bottom: 1.25rem;
+        }
+    }
+}
+//page02
+.page02 {
+    overflow: hidden;
+    div {
+        width: 48%;
+        margin: 0 4%;
+        border: 1px solid gray;
+        overflow: hidden;
+    }
+    .section-color {
+        margin: 0 0.75rem;
+        line-height: 2rem;
+    }
+}
+//page03
+.page03 {
+    text-align: center;
+    background: url("../img/bg.jpg");
+    .section-color {
+        margin: 1.5rem;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    div {
+        display: inline-block;
+        text-align: center;
+        margin: 2.5%;
+        width: 40%;
+        img {
+            margin: 1rem 0;
+            width: 100%;
+        }
+        span {
+            font-size: 1.1rem;
+            color: #585757;
+        }
+    }
+}
+//page04
+.page04 {
+    overflow: hidden;
+    .row {
+        overflow: hidden;
+        width: 100%;
+        margin-top: 10%;
+        > div {
+            width: 43%; //      height: 46rem;
+            text-align: center;
+            float: left;
+            margin-left: 3%;
+            > div {
+                display: inline-block;
+                width: 90%;
+                img {
+                    width: 100%;
+                }
+            }
+            &:nth-child(2n) {
+                margin-left: 8%;
+            }
+            p {
+                color: #8a8b8c;
+                font-size: 0.9rem;
+                line-height: 1.5rem;
+            }
+        }
+    }
+}
+//page05
+.page05 {
+    text-align: center;
+    .img-column01 {
+        display: inline-block;
+    }
+    div {
+        width: 21%;
+        display: inline-block;
+        margin: 0 1%;
+        overflow: hidden;
+        img {
+            width: 100%;
+            margin: 0.3rem 0;
+        }
+    }
+}
+//page06
+.page06 {
+    .row {
+        overflow: hidden;
+        div {
+            width: 44%;
+            margin: 3%;
+            float: left;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+//page07 
+.page07 {
+    .banner {
+        width: 205%;
+        text-align: center;
+        padding: 2.5rem 0;
+        background-color: #ccc;
+        overflow: hidden;
+        .box {
+            position: relative;
+            margin-left: 1%;
+            float: left;
+            width: 20%;
+            height: 21rem;
+            padding: 1.5%;
+            background: rgba(255,255,255,0.5);
+            .inner {
+                img {
+                    width: 100%;
+                }
+                p {
+                    line-height: 1.5rem;
+                }
+                input {
+                    color: #fff;
+                    position: absolute;
+                    bottom: 1.5rem;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: 6rem;
+                    height: 1.5rem;
+                    border-top-left-radius: 0.5rem;
+                    background-color: pink;
+                    border: none;
+                    border-bottom-right-radius: 0.5rem;
+                }
+            }
+        }
+    }
+}
+//page08 
+.page08 {
+    font-size: 1.1rem;
+    text-align: center;
+    ul {
+        li {
+            display: inline-block;
+            padding: 0.5rem 2%;
+            border-top-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
+            background-color: dodgerblue;
+            color: #fff;
+            margin: 3% 0;
+            +li {
+                margin-left: 0.5rem;
+            }
+        }
+    }
+    input {
+        font-size: 1.1rem;
+        width: 90%;
+        margin: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+        border: 1px solid pink;
+        padding: 0.5rem;
+        box-sizing: border-box;
+    }
+    textarea {
+        margin: 0.5rem;
+        font-size: 1.1rem;
+        resize: none;
+        width: 90%;
+        height: 8rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        padding: 1rem;
+        border: 1px solid pink;
+        box-sizing: border-box;
+    }
+    .sub {
+        color: #fff;
+        width: 50%;
+        background-color: pink;
+    }
+}
+//page09
+.page09 {
+    padding-bottom: 0;
+    background: url("../img/bg.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    > div {
+        margin: 0 1rem;
+        display: inline-block;
+        width:10rem;
+        img {
+            margin: 2.5rem 0;
+        }
+        span {
+            font-size: 1.2rem;
+        }
+    }
+    p {
+        margin: 1.25rem 0;
+        font-size: 0.4rem;
+    }
+    ul {
+        padding: 0.25rem;
+        background-color: #74c5be;
+        li {
+            width: 32%;
+            display: inline-block;
+            font-size: 0.75rem;
+            color: #fff;
+            box-sizing: border-box;
+            + li {
+                border-left: 1px solid #fff;
+            }
+        }
+    }
+}

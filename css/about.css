@@ -1,0 +1,310 @@
+/*复位样式*/
+body,
+a,
+textarea,
+input {
+  font-family: SourceHanSans, Microsoft YaHei, "宋体", Verdana, Geneva, sans-serif;
+}
+html,
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th,
+td,
+hr,
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+img {
+  vertical-align: middle;
+  font-size: 0;
+}
+html,
+body {
+  font-size: 20px;
+  color: #3a3a3a;
+  max-width: 720px;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #585757;
+  font-weight: normal;
+}
+.en-caption {
+  color: #585757;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 1.5rem;
+}
+p {
+  font-size: 1rem;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #74c5be;
+  line-height: 2.5rem;
+}
+h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 2.5rem;
+  text-align: center;
+}
+img {
+  width: 100%;
+}
+.main {
+  padding: 2.5rem 0;
+}
+.clear-float:after,
+.clear-float:before {
+  clear: both;
+  content: "";
+}
+.section-color {
+  color: #8a8b8c;
+}
+.left-float {
+  float: left;
+}
+.right-float {
+  float: right;
+}
+.page01 .txt-story {
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 1.25rem;
+}
+.page01 .txt-story p {
+  margin-bottom: 1.25rem;
+}
+.page02 {
+  overflow: hidden;
+}
+.page02 div {
+  width: 48%;
+  margin: 0 4%;
+  border: 1px solid gray;
+  overflow: hidden;
+}
+.page02 .section-color {
+  margin: 0 0.75rem;
+  line-height: 2rem;
+}
+.page03 {
+  text-align: center;
+  background: url("../img/bg.jpg");
+}
+.page03 .section-color {
+  margin: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.page03 div {
+  display: inline-block;
+  text-align: center;
+  margin: 2.5%;
+  width: 40%;
+}
+.page03 div img {
+  margin: 1rem 0;
+  width: 100%;
+}
+.page03 div span {
+  font-size: 1.1rem;
+  color: #585757;
+}
+.page04 {
+  overflow: hidden;
+}
+.page04 .row {
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10%;
+}
+.page04 .row > div {
+  width: 43%;
+  text-align: center;
+  float: left;
+  margin-left: 3%;
+}
+.page04 .row > div > div {
+  display: inline-block;
+  width: 90%;
+}
+.page04 .row > div > div img {
+  width: 100%;
+}
+.page04 .row > div:nth-child(2n) {
+  margin-left: 8%;
+}
+.page04 .row > div p {
+  color: #8a8b8c;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+.page05 {
+  text-align: center;
+}
+.page05 .img-column01 {
+  display: inline-block;
+}
+.page05 div {
+  width: 21%;
+  display: inline-block;
+  margin: 0 1%;
+  overflow: hidden;
+}
+.page05 div img {
+  width: 100%;
+  margin: 0.3rem 0;
+}
+.page06 .row {
+  overflow: hidden;
+}
+.page06 .row div {
+  width: 44%;
+  margin: 3%;
+  float: left;
+}
+.page06 .row div img {
+  width: 100%;
+}
+.page07 .banner {
+  width: 205%;
+  text-align: center;
+  padding: 2.5rem 0;
+  background-color: #ccc;
+  overflow: hidden;
+}
+.page07 .banner .box {
+  position: relative;
+  margin-left: 1%;
+  float: left;
+  width: 20%;
+  height: 21rem;
+  padding: 1.5%;
+  background: rgba(255, 255, 255, 0.5);
+}
+.page07 .banner .box .inner img {
+  width: 100%;
+}
+.page07 .banner .box .inner p {
+  line-height: 1.5rem;
+}
+.page07 .banner .box .inner input {
+  color: #fff;
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6rem;
+  height: 1.5rem;
+  border-top-left-radius: 0.5rem;
+  background-color: pink;
+  border: none;
+  border-bottom-right-radius: 0.5rem;
+}
+.page08 {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.page08 ul li {
+  display: inline-block;
+  padding: 0.5rem 2%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: dodgerblue;
+  color: #fff;
+  margin: 3% 0;
+}
+.page08 ul li + li {
+  margin-left: 0.5rem;
+}
+.page08 input {
+  font-size: 1.1rem;
+  width: 90%;
+  margin: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border: 1px solid pink;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+.page08 textarea {
+  margin: 0.5rem;
+  font-size: 1.1rem;
+  resize: none;
+  width: 90%;
+  height: 8rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 1rem;
+  border: 1px solid pink;
+  box-sizing: border-box;
+}
+.page08 .sub {
+  color: #fff;
+  width: 50%;
+  background-color: pink;
+}
+.page09 {
+  padding-bottom: 0;
+  background: url("../img/bg.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.page09 > div {
+  margin: 0 1rem;
+  display: inline-block;
+  width: 10rem;
+}
+.page09 > div img {
+  margin: 2.5rem 0;
+}
+.page09 > div span {
+  font-size: 1.2rem;
+}
+.page09 p {
+  margin: 1.25rem 0;
+  font-size: 0.4rem;
+}
+.page09 ul {
+  padding: 0.25rem;
+  background-color: #74c5be;
+}
+.page09 ul li {
+  width: 32%;
+  display: inline-block;
+  font-size: 0.75rem;
+  color: #fff;
+  box-sizing: border-box;
+}
+.page09 ul li + li {
+  border-left: 1px solid #fff;
+}
